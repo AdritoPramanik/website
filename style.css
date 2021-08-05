@@ -28,11 +28,11 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 100rem 0;
 }
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
+    max-width: 1300rem;
+    padding: 0 80rem;
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
@@ -50,29 +50,29 @@ section{
 section .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 60rem;
+    padding-bottom: 20rem;
     font-family: 'ubuntu', sans-serif;
 }
 section .title::before{
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 180rem;
+    height: 3rem;
     background: #111;
     transform: translateX(-50%);
 }
 section .title::after{
     position: absolute;
-    bottom: -8px;
+    bottom: -8rem;
     left: 50%;
-    font-size: 20px;
+    font-size: 20rem;
     color: crimson;
-    padding: 0 5px;
+    padding: 0 5rem;
     background: #fff;
     transform: translateX(-50%);
 }
@@ -82,12 +82,12 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 30rem 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 15rem 0;
     background: crimson;
 }
 .navbar .max-width{
@@ -97,7 +97,7 @@ section .title::after{
 }
 .navbar .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 35rem;
     font-weight: 600;
 }
 .navbar .logo a span{
@@ -114,9 +114,9 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 18rem;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 25rem;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -129,31 +129,31 @@ section .title::after{
 /* menu btn styling */
 .menu-btn{
     color: #fff;
-    font-size: 23px;
+    font-size: 23rem;
     cursor: pointer;
     display: none;
 }
 .scroll-up-btn{
     position: fixed;
-    height: 45px;
-    width: 42px;
+    height: 45rem;
+    width: 42rem;
     background: crimson;
-    right: 30px;
-    bottom: 10px;
+    right: 30rem;
+    bottom: 10rem;
     text-align: center;
-    line-height: 45px;
+    line-height: 45rem;
     color: #fff;
     z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
-    border-bottom-width: 2px;
+    font-size: 30rem;
+    border-radius: 6rem;
+    border-bottom-width: 2rem;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    bottom: 30px;
+    bottom: 30rem;
     opacity: 1;
     pointer-events: auto;
 }
