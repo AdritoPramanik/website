@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["increasing IQ", "increasing concentration", "Improving memory", "Increaseing intelligence", "increaseing creativity"],
+        strings: ["increasing IQ", "increasing concentration", "Improving memory", "Increasing intelligence", "increaseing creativity"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
