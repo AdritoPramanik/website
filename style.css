@@ -28,7 +28,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100rem 0;
+    padding: 100px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -61,8 +61,8 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180rem;
-    height: 3rem;
+    width: 180px;
+    height: 3px;
     background: #111;
     transform: translateX(-50%);
 }
@@ -72,7 +72,7 @@ section .title::after{
     left: 50%;
     font-size: 20px;
     color: crimson;
-    padding: 0 5rem;
+    padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
 }
@@ -87,7 +87,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15rem 0;
+    padding: 15px 0;
     background: crimson;
 }
 .navbar .max-width{
